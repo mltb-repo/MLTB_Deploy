@@ -1,4 +1,4 @@
-FROM npt13/mltbkore
+FROM mltbrepo/mltb:v1
 WORKDIR /usr/src/app
 RUN chmod 777 /usr/src/app
 COPY . .
